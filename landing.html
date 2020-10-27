@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav class="navbar">
+                <button><a href="about.html">about</a></button>
+                <button><a href="media.html">media</a></button>
+            </nav>
+        </header>
+
+        <div class="main">
+            <form onsubmit="myFunction()">
+                <label for="userName"><b>UserName</b></label>
+                <input type="text" placeholder="UserName" name="username">
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw">
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email">
+
+                <button type="submit">Submit</button>
+
+                <script>
+                    function myFunction() {
+                        alert("Your form has been submitted");
+                    }
+                </script>
+            </form>
+        </div>
+        <img src="./Media/download.jpg" alt="Juice WRLD">
+    </div>
+    <footer>
+        <p>&copy;2020 Code Differently All Rights Reserved</p>
+    </footer>
+</body>
+</html>
