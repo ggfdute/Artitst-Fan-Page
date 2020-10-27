@@ -20,6 +20,14 @@ html{
     padding: 10px 10px 10px 10px;
 }
 
+.image{
+    float: left;
+}
+
+.image2{
+    float: right;
+}
+
 nav a{
     text-decoration: none;
     color: blue;
@@ -31,4 +39,15 @@ footer{
     bottom: 0;
     width: 100%;
     font-weight: bold;
+}
+
+section{
+    border: 10px solid black;
+    margin: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+
+section p, article, blockquote, li{
+    text-align: left;
 }
